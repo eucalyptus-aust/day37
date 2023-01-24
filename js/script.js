@@ -147,7 +147,7 @@ $( '#js-form input, #js-form textarea').on( 'change', function(){
 
 
 //360px 未満は JS で viewport を固定する-----------------
-$(function () {
+
   const viewport = document.querySelector('meta[name="viewport"]');
   function switchViewport() {
     const value =
@@ -160,7 +160,7 @@ $(function () {
   }
   addEventListener('resize', switchViewport, false);
   switchViewport();
-}();
+})
 
 
 // ページ内リンク
