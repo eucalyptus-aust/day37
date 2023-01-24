@@ -160,7 +160,7 @@ $(function () {
   }
   addEventListener('resize', switchViewport, false);
   switchViewport();
-})();
+});
 
 
 // ページ内リンク
