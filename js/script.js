@@ -175,6 +175,5 @@ $('a[href^="#"]').on("click", function() {
 });
 
 
-});
 
 new WOW().init();
